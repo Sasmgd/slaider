@@ -1,0 +1,53 @@
+.slaider {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.box {
+    width: 800px;
+    height: 800px;
+    border: 15px solid rgb(255, 72, 0);
+    overflow: hidden;
+
+}
+
+.imgs {
+    display: flex;
+}
+
+img {
+    width: 800px;
+    height: 800px;
+    object-fit: cover;
+}
+
+.btn {
+    font-size: 20px;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(255, 72, 0);
+    color: white;
+}
+
+.divs {
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 30px;
+    position: absolute;
+    top: 650px;
+}
+
+.mrgvali {
+    width: 50px;
+    height: 20px;
+    border: 2px solid rgb(253, 253, 253);
+    border-radius: 50%;
+}
+
+.active {
+    background-color: aliceblue;
+}
